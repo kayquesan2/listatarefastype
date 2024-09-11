@@ -1,9 +1,9 @@
 // Importa o provedor de estado global
-import { ProvedorEstadoGlobal } from "./hooks/EstadoGlobal";
+import { ProvedorEstadoGlobal } from "./src/hooks/EstadoGlobal";
 // Importa o componente ListaTarefas
-import ListaTarefas from "./components/ListaTarefas";
+import ListaTarefas from "./src/components/ListaTarefas";
 import { NativeBaseProvider, View } from "native-base";
-import AdicionarTarefa from "./components/AdicionarTarefa";
+import AdicionarTarefa from "./src/components/AdicionarTarefa";
 
 export default function App() {
   // Retorna a estrutura da tela principal
